@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url(../font/Graphik-BoldItalic-Trial.otf);
+
 :root {
   --white: #ffffff;
   --blue80: #2091f9;
   --text_dark_blue: #252b42;
   --p_text_black_40: #374754;
   --black100: #18171d;
+  --roboto: "Roboto";
+  --graphik: "Graphik";
 }
 
 * {
@@ -32,7 +37,7 @@
   margin-top: -910px;
   width: 1210px;
   height: 156px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   gap: 15.5px;
   margin-left: 282px;
@@ -41,7 +46,7 @@
 }
 .nav_a > a {
   margin-left: 31px;
-  font-family: var(--fontQuickSand);
+  font-family: var(--graphik);
   font-size: 15px;
   font-weight: 400;
   line-height: 28px;
@@ -49,6 +54,7 @@
   color: var(--white);
   text-decoration: none;
   transition: all 0.4s;
+  opacity: 70%;
   /* border: 2px solid red; */
 }
 .nav_a {
@@ -62,11 +68,11 @@
 .header_button {
   width: 100%;
   max-width: 185px;
-  border: 1px solid var(--blue80);
+  border: 1px solid var(--graphik);
   border-radius: 24px;
   transition: all 0.4s;
   padding: 12px 0;
-  font-family: var(--fontQuickSand);
+  font-family: var(--graphik);
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -76,13 +82,14 @@
   cursor: pointer;
 }
 .nav_text {
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   margin-bottom: -900px;
   position: absolute;
   align-items: center;
-  margin-left: 474px;
-  margin-top: 80px;
-  padding: 150px;
+  margin-left: 420px;
+  margin-top: -175px;
+  /* padding-bottom: 17px; */
+  /* padding: 110px; */
   transform: translateX(-220px);
 }
 .nav_text > h1 {
@@ -102,6 +109,7 @@
   color: var(--white);
   text-align: center;
   justify-content: center;
+  padding-top: 17px;
 }
 .logo_nav {
   width: 50%;
@@ -114,4 +122,17 @@
   gap: 27px;
   margin-right: 30%;
   margin-bottom: 40px;
+}
+.header_button {
+  text-align: center;
+  justify-content: center;
+  margin-left: 295px;
+  margin-top: 60px;
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: var(--white);
+  background-color: var(--blue80);
 }
