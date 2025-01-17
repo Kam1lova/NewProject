@@ -256,3 +256,85 @@
   text-align: left;
   padding-left: 20px;
 }
+.section3 {
+  padding-bottom: 500px;
+  display: flex;
+  margin-left: 177px;
+}
+.section3_img {
+  width: 854px;
+  height: 514px;
+  padding-top: 115px;
+}
+.section3_img > img {
+  width: 100%;
+}
+.section3_text {
+  width: 544px;
+  height: 500px;
+  padding-top: 175px;
+  margin-left: 50px;
+}
+.section3_text > .section3_text_paragraph {
+  padding-top: 69px;
+  padding-left: 63px;
+}
+.section3_text_paragraph > h3 {
+  font-family: var(--graphik);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: var(--text_dark_blue);
+  padding-bottom: 7px;
+}
+.section3_text_paragraph > h2 {
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  color: var(--text_dark_blue);
+}
+.section3_text_paragraph > .p1 {
+  font-family: var(--graphik);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: var(--text_dark_blue);
+  padding-top: 25px;
+}
+.section3_text_paragraph > .p2 {
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
+.section3_text_buttons {
+  display: flex;
+  padding-left: 63px;
+
+}
+input {
+  width: 273px;
+  height: 54px;
+  margin-top: 36px;
+  border-radius: 39px;
+  border: 1px solid #e8e8e8;
+  padding: 19px 39px;
+  gap: 64px;
+  background-color: #f4f4f4;
+}
+.section3_text_buttons > button{
+  width: 172px;
+  height: 58px;
+  border-radius: 35px;
+  padding: 19px 38px;
+  background-color: var(--blue80);
+  color: var(--white);
+  border: none;
+  margin-top: 34px;
+  margin-left: 17px;
+}
