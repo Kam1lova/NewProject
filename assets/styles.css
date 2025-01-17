@@ -136,3 +136,123 @@
   color: var(--white);
   background-color: var(--blue80);
 }
+.section1_header {
+  /* border: 2px solid red; */
+  padding-top: 115px;
+}
+.section1_header > h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  font-family: var(--graphik);
+  color: var(--text_dark_blue);
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 17px;
+}
+.section1_header > p {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  font-family: var(--graphik);
+  color: var(--text_dark_blue);
+  text-align: center;
+  justify-content: center;
+}
+.section1_variables {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 869px;
+  margin: auto;
+  padding-top: 80px;
+}
+.header_section {
+  /* border: 2px solid red; */
+  width: 255px;
+  height: 257px;
+}
+.header_section > h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  font-family: var(--graphik);
+  color: var(--text_dark_blue);
+  text-align: center;
+  justify-content: center;
+}
+.header_section > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  font-family: var(--graphik);
+  color: var(--text_dark_blue);
+  text-align: center;
+  justify-content: center;
+}
+.header_section > svg {
+  margin-left: 109px;
+}
+.section1_img > img {
+  /* width: 100%; */
+  margin: 238px;
+  display: flex;
+  margin: auto;
+}
+.nav_button_nev {
+  transform: translateY(40px);
+}
+.section2 {
+  width: 100%;
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 226px;
+  justify-content: space-around;
+  width: 1243px;
+  margin: auto;
+}
+.section2_text > h2 {
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  color: var(--text_dark_blue);
+  justify-content: space-between;
+}
+.section2_text > p {
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: var(--p_text_black_40);
+  padding-top: 17px;
+}
+.section2_button > button {
+  font-family: var(--graphik);
+  font-weight: 700;
+  border: none;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: var(--white);
+  background-color: var(--blue80);
+  border-radius: 35px;
+  padding-left: 59.5px;
+  padding-right: 59.5px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 60px;
+  text-align: left;
+}
+.section2_text {
+  width: 532px;
+  height: 357px;
+  text-align: left;
+  padding-left: 20px;
+}
