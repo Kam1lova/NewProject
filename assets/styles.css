@@ -454,3 +454,145 @@ input {
   margin-left: 581px;
   margin-top: 80px;
 }
+.section6 {
+  background-color: var(--text_dark_blue);
+  /* border: 2px solid red; */
+  width: 100%;
+  max-width: 1775px;
+  height: 1115px;
+}
+.section6 > h1 {
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  color: var(--white);
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 17px;
+  padding-top: 110px;
+}
+.section6 > p {
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: var(--white);
+  text-align: center;
+  justify-content: center;
+}
+.section6 > p:nth-of-type(2){
+  padding-bottom: 90px;
+
+}
+.section6_box_money {
+  width: 100%;
+  max-width: 335px;
+  height: 607px;
+  /* border: 2px solid red; */
+  background-color: var(--white);
+  margin-top: 43px;
+  border-radius: 10px;
+  border: 1px solid white;
+  
+}
+.section6_box {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+  justify-content: center;
+}
+.section6_box_money_nav > h3 {
+  font-family: var(--graphik);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: var(--text_dark_blue);
+}
+.des{
+  padding-top: 43px;
+
+}
+.section6_box_money_nav > p {
+  font-family: var(--graphik);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: var(--p_text_black_40);
+}
+.section6_box_money_paragraph_zero > h1 {
+  font-family: var(--graphik);
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0.2px;
+  color: var(--text_dark_blue);
+  margin-top: 18.5px;
+  padding-bottom: 18.5px;
+}
+.section6_box_money_paragraph {
+  display: flex;
+  margin-left: 110px;
+}
+.section6_box_money_paragraph_text_dollar {
+  font-family: var(--graphik);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: var(--text_dark_blue);
+  margin-top: 30px;
+}
+.section6_box_money_paragraph_text_text {
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: var(--p_text_black_40);
+}
+.section6_box_money_dollar > p {
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: var(--text_dark_blue);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.section6_button > button {
+  width: 100%;
+  max-width: 255px;
+  height: 56px;
+  border-radius: 35px;
+  padding: 18px 38px;
+  background-color: var(--blue80);
+  color: var(--white);
+  border: none;
+}
+.section6_box_money_2{
+  width: 100%;
+  max-width: 335px;
+  height: 693px;
+  /* border: 2px solid red; */
+  background-color: var(--blue80);
+  padding-top: 86px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.section6_button_2 > button{
+  width: 100%;
+  max-width: 255px;
+  height: 56px;
+  border-radius: 35px;
+  padding: 18px 38px;
+  background-color: var(--white);
+  color: var(--blue80);
+  border: none;
+}
