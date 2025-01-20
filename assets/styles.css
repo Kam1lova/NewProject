@@ -44,6 +44,7 @@
   margin-left: 182px;
   justify-content: space-between;
   align-items: center;
+  transform: translateX(100px);
 }
 .nav_a > a {
   margin-left: 31px;
